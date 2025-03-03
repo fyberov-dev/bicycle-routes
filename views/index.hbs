@@ -1,0 +1,77 @@
+<header class="slider">
+  {{#each text.headerTitles}}
+    <div class="slide">
+      <img src="{{this.picUrl}}" alt="picture" />
+      <h1 class="header-title">{{this.title}}</h1>
+    </div>
+  {{/each}}
+
+  <div class="slider-navigation">
+    {{#each text.headerTitles}}
+      <div data-index="{{@index}}" class="dot"></div>
+    {{/each}}
+  </div>
+</header>
+<main>
+  <a href="/{{lang}}/mapping" class="ad">
+    <h2>{{text.mappingTitle}}</h2>
+    <img
+      src="[PASTE IMAGE HERE]"
+      alt="[PASTE IMAGE HERE]"
+    />
+  </a>
+  <section id="map">
+    <h2 class="map-title-text">{{text.mapTitle}}</h2>
+    <div class="map-content">
+      <div class="secure-block">
+        <img src="/Show.svg" alt="" loading="lazy" />
+        <h3 class="secure-text">{{text.mapButton}}</h3>
+      </div>
+      <div class="map-block">
+        <a
+          href="#map"
+          class="open-map-button mobile"
+          data-open="{{text.openMap}}"
+          data-close="{{text.closeMap}}"
+        ><p class="smaller">{{text.openMap}}</p></a>
+        <iframe
+          src="https://gis.tallinn.ee/portal/apps/webappviewer/index.html?id=7ec89eb3320246b4891f72106e871e40"
+          allowfullscreen
+          frameborder="0"
+          class="map-iframe"
+        ></iframe>
+      </div>
+    </div>
+    <a
+      href="https://gis.tallinn.ee/portal/apps/webappviewer/index.html?id=7ec89eb3320246b4891f72106e871e40"
+      class="open-map-button"
+    ><p class="small">{{text.openFullMap}}</p></a>
+  </section>
+  <section id="rules-block">
+    <a href="/{{lang}}/rules" class="rules-title">
+      <h2>{{text.rulesTitle.first}}</h2>
+      &nbsp;&nbsp;&nbsp;
+      <h2>{{text.rulesTitle.second}}</h2></a>
+    <img src="/rulesImage.jpeg" alt="" loading="lazy" />
+  </section>
+  <section id="mini-gallery">
+    <h2 class="mini-gallery-title">{{text.galleryTitle}}</h2>
+    <div class="mini-gallery-row">
+      {{#each images}}
+        <div class="mini-gallery-column">
+          <a href="/{{@root.lang}}/gallery/image/{{_id}}">
+            <img
+              src="/{{picUrlMin}}"
+              data-src="/{{picUrl}}"
+              class="async-image"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+        </div>
+      {{/each}}
+    </div>
+    <a href="/{{lang}}/gallery" class="gallery-btn"><p
+      >{{text.watchMore}}</p></a>
+  </section>
+</main>

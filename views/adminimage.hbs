@@ -1,0 +1,24 @@
+<div id="admin-image">
+  <div class="image-header">
+    <img src="/{{picUrl}}" alt="{{author}}" loading="lazy" />
+  </div>
+  <div class="image-content">
+    <p class="image-paragraph"><span>Author:</span> {{author}}</p>
+    <p class="image-paragraph date"><span>Time:</span> {{time}}</p>
+    <p class="image-paragraph date"><span>Source:</span>
+      {{source}}
+      {{#notEqual source}} Pole allikat {{/notEqual}}</p>
+    <div class="image-actions">
+      {{#notEqual isVerified}}
+        <form action="/{{lang}}/admin/image/{{id}}/verify" method="POST">
+          <input type="submit" class="admin-submit-input" value="Kinnita" />
+          <input type="hidden" name="_csrf" value="{{csrf}}" />
+        </form>
+      {{/notEqual}}
+      <form action="/{{lang}}/admin/image/{{id}}/delete" method="POST">
+        <input type="submit" class="admin-delete-btn" value="Kustuta" />
+        <input type="hidden" name="_csrf" value="{{csrf}}" />
+      </form>
+    </div>
+  </div>
+</div>

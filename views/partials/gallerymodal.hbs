@@ -1,0 +1,43 @@
+<div class="gallery-modal-background hide">
+  <div class="modal">
+    <button class="close-btn">&times;</button>
+    <form
+      action="/{{lang}}/gallery/image/add?_csrf={{csrf}}"
+      method="POST"
+      class="contact-form"
+      enctype="multipart/form-data"
+    >
+      <h1 class="contact-title">{{gallery.addPhoto.title}}</h1>
+      <div class="contact-input-div">
+        <h3 class="input-title">{{gallery.addPhoto.author.title}}</h3>
+        <input
+          type="text"
+          id="author"
+          name="author"
+          class="input-text"
+          placeholder="{{gallery.addPhoto.author.placeholder}}"
+        />
+      </div>
+      <div class="contact-input-div">
+        <h3 class="input-title">{{gallery.addPhoto.file.title}}</h3>
+        <input type="file" name="file" class="input-text" />
+      </div>
+      <div class="contact-input-div">
+        <h3 class="input-title">{{gallery.addPhoto.source.title}}</h3>
+        <input
+          id="source"
+          type="text"
+          name="source"
+          class="input-text"
+          placeholder="{{gallery.addPhoto.source.placeholder}}"
+        />
+      </div>
+      <input
+        type="submit"
+        class="input-submit"
+        value="{{gallery.addPhoto.buttonText}}"
+      />
+    </form>
+  </div>
+  <div class="background"></div>
+</div>

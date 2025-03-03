@@ -1,0 +1,13 @@
+<div id="mapping">
+  <h1>{{mapping.title}}</h1>
+  <div class="text-content">
+    {{#each mapping.content}}
+      <p>
+        {{this}}
+      </p>
+    {{/each}}
+    <a href="{{mapping.readMore.url}}" class="read-more"><h3
+      >{{mapping.readMore.text}}</h3></a>
+  </div>
+  <img src="/102631.jpg" alt="" />
+</div>

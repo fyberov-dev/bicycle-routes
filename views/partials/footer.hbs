@@ -1,0 +1,20 @@
+<footer>
+  <h2 class="footer-title">{{footer.title}}</h2>
+  <ul class="footer-list">
+    {{#each footer.links}}
+      <li class="footer-list-item item-{{@index}}">
+        <div class="text-block">
+          {{#if isTitle}}
+            <h3>{{this.title}}</h3>
+          {{else}}
+            <a href="{{this.link}}">
+              <p>{{this.title}}</p>
+            </a>
+          {{/if}}
+        </div>
+      </li>
+    {{/each}}
+  </ul>
+</footer>
+
+<script src="/index.js"></script>

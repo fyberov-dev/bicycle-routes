@@ -1,0 +1,18 @@
+<form action="/{{lang}}/admin/login" method="POST" class="admin-form">
+  <h1 class="admin-title">Sissepääs admin paneelile</h1>
+    <input
+      type="text"
+      name="name"
+      class="admin-text-input"
+      placeholder="Login"
+    />
+    <input
+      type="password"
+      name="password"
+      class="admin-text-input"
+      placeholder="Parool"
+    />
+    <input type="hidden" name="_csrf" value="{{csrf}}" />
+    <input type="submit" class="admin-submit-input" value="Logi sisse">
+  </div>
+</form>

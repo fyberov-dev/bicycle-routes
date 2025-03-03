@@ -1,0 +1,43 @@
+<div id="aid">
+  <h1 class="aid-title">{{aid.title}}</h1>
+  {{#each aid.blocks}}
+    <div class="aid-block">
+      <h3 class="aid-small-title">{{this.title}}</h3>
+      {{#each this.content}}
+        {{#isEqual this.type "list"}}
+          <ul class="aid-list">
+            {{#each this.text}}
+
+              {{#if this.listInList}}
+                <li class="aid-list-item large">
+                  <p class="smaller list-dot">{{this.title}}</p>
+                  <ul class="aid-list small">
+                    {{#each this.listContent}}
+                      <li class="aid-list-item">
+                        <p class="smaller">{{this}}</p>
+                      </li>
+                    {{/each}}
+                  </ul>
+                </li>
+              {{else}}
+                <li class="aid-list-item">
+                  <p class="smaller">{{this}}</p>
+                </li>
+              {{/if}}
+            {{/each}}
+          </ul>
+        {{/isEqual}}
+
+        {{#isEqual this.type "paragraph"}}
+          <p class="smaller">{{this.text}}</p>
+        {{/isEqual}}
+      {{/each}}
+    </div>
+    <div class="hr"></div>
+  {{/each}}
+  <div class="aid-source">
+    <a href="https://www.olevalmis.ee/et/juhis/esmaabi"><p
+        class="very-small"
+      >https://www.olevalmis.ee/et/juhis/esmaabi</p></a>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="modal-background hide">
+  <div class="modal">
+    <button class="close-btn">&times;</button>
+    <form action="/{{lang}}/contact" method="POST" class="contact-form">
+      <h2 class="contact-title">{{contact.title}}</h2>
+      <div class="contact-input-div">
+        <h3 class="input-title">{{contact.name.title}}</h3>
+        <input
+          type="text"
+          name="name"
+          class="input-text"
+          placeholder="{{contact.name.placeholder}}"
+        />
+      </div>
+      <div class="contact-input-div">
+        <h3 class="input-title">{{contact.suggest.title}}</h3>
+        <input
+          type="text"
+          name="suggestion"
+          class="input-text"
+          placeholder="{{contact.suggest.placeholder}}"
+        />
+      </div>
+      <input type="hidden" name="_csrf" value="{{csrf}}" />
+      <input
+        type="submit"
+        class="input-submit"
+        value="{{contact.buttonText}}"
+      />
+    </form>
+  </div>
+  <div class="background"></div>
+</div>

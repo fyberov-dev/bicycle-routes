@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <a class="logo" href="/{{lang}}"><h2>TJT</h2></a>
+  <ul class="navbar-list">
+    {{#each navbar.routes}}
+    <li class="navbar-list-item">
+      <a href="/{{@root.lang}}/{{this.route}}" class="item-navigation-button"><p class="small {{#isEqual @root.currentRoute this.route}}active{{/isEqual}}">{{this.title}}</p></a>
+    </li>
+    {{/each}}
+    <li class="navbar-list-item">
+      <button class="item-button contact-button"><p class="small">{{navbar.contactButton}}</p></button>
+    </li>
+  </ul>
+  <ul class="languages-list">
+    <li class="language-item"><a href="/{{urlEE}}"><p class="very-small {{#checkLang lang 'et' }} active {{/checkLang}}">EST</p></a></li>
+    <li class="language-item"><a href="/{{urlRU}}"><p class="very-small {{#checkLang lang 'ru' }} active {{/checkLang}}">RUS</p></a></li>
+  </ul>
+  <ul class="hamburger-menu hided">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </ul>
+</nav>

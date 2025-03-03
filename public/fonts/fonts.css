@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "VelaSansLight";
+  src: url("./OpenSans-Light.ttf") format("truetype");
+}
+
+p {
+  font-family: "VelaSansLight";
+  font-size: 24px;
+  color: #2e2e3a;
+  font-style: normal;
+  font-weight: 300;
+}
+
+p.smaller {
+  font-size: 20px;
+  color: #2e2e3a;
+  line-height: 30px;
+}
+
+p.small {
+  font-size: 18px;
+  color: #535362;
+}
+
+p.very-small {
+  font-size: 14px;
+  color: #535362;
+}
+
+@font-face {
+  font-family: "VelaSansRegular";
+  src: url("./OpenSans-Regular.ttf") format("truetype");
+}
+
+h3 {
+  font-family: "VelaSansRegular";
+  font-size: 24px;
+  color: #262631;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "VelaSansMedium";
+  src: url("./OpenSans-Medium.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "VelaSansMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #16161e;
+}
+
+h2 {
+  font-family: "VelaSansMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #262631;
+}

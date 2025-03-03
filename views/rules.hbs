@@ -1,0 +1,42 @@
+<div id="rules">
+  <h1 class="page-rules-title">{{rules.title}}</h1>
+
+  {{#each rules.blocks}}
+    <div class="page-rules-block">
+      <h3 class="rules-small-title">{{this.title}}</h3>
+      {{#each this.content}}
+        {{#isEqual this.type "list"}}
+          <ul class="rules-list">
+            {{#each this.text}}
+              <li class="rules-list-item">
+                <p class="smaller">{{this}}</p>
+              </li>
+            {{/each}}
+          </ul>
+        {{/isEqual}}
+
+        {{#isEqual this.type "paragraph"}}
+          <p class="smaller">{{this.text}}</p>
+        {{/isEqual}}
+
+        {{#isEqual this.type "img"}}
+          <div class="rules-signs">
+            {{#each this.images}}
+              <div class="sign">
+                <img src="{{this.imgUrl}}" alt="" loading="lazy" />
+                <h3>{{this.title}}</h3>
+                <p class="smaller">{{this.text}}</p>
+              </div>
+            {{/each}}
+          </div>
+        {{/isEqual}}
+      {{/each}}
+    </div>
+    <div class="hr"></div>
+  {{/each}}
+  <div class="rules-source">
+    <a href="https://www.liikluskasvatus.ee/et/taiskasvanule/1/jalgrattur"><p
+        class="very-small"
+      >https://www.liikluskasvatus.ee/et/taiskasvanule/1/jalgrattur</p></a>
+  </div>
+</div>

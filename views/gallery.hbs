@@ -1,0 +1,16 @@
+<div class="gallery-page" data-page="{{pageId}}">
+  {{> gallerymodal}}
+  <div class="gallery-title-block">
+    <h1 class="gallery-title">{{gallery.title}}</h1>
+    <a href="#add" class="file-button"><p class="small">{{gallery.buttonText}}</p></a>
+  </div>
+  <div class="gallery-row">
+    {{#each pictures}}
+    {{#if isVerified}}
+      <a href="/{{@root.lang}}/gallery/image/{{_id}}" class="gallery-column">
+        <img src="/{{picUrlMin}}" data-src="/{{picUrl}}" class="async-image" {{#isGreater @index 6}} loading="lazy" {{/isGreater}} alt="{{picUrl}}" />
+      </a>
+    {{/if}}
+    {{/each}}
+  </div>
+</div>

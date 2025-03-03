@@ -1,0 +1,78 @@
+<div id="admin">
+  <div class="admin-main-title">
+    <h2 class="admin-title">Admin paneel ({{nameCurrent}})</h2>
+    <form action="/{{lang}}/admin/leave" method="POST">
+      <input type="hidden" name="_csrf" value="{{csrf}}" />
+      <button class="admin-delete-btn">Väljuda kontost</button>
+    </form>
+  </div>
+  {{#if isCreatorCurrent}}
+  <h1 class="admin-title small">Lisa admin konto</h1>
+  <div class="admin-block">
+    <form action="/{{lang}}/admin/add" class="add-admin-form" method="POST">
+      <input
+        type="text"
+        name="name"
+        class="admin-text-input"
+        placeholder="Login"
+      />
+      <input
+        type="text"
+        name="password"
+        class="admin-text-input"
+        placeholder="Parool"
+      />
+      <input type="hidden" name="_csrf" value="{{csrf}}" />
+      <input type="submit" class="admin-submit-input" value="Lisa" />
+    </form>
+    <ul class="add-admin-list">
+      {{#each admins}}
+        <li class="add-admin-list-item">
+          <form
+            action="/{{@root.lang}}/admin/delete"
+            class="delete-admin-form"
+            method="POST"
+          >
+            <p class="admin-nickname">{{name}}</p>
+            <input type="hidden" name="id" value="{{_id}}" />
+            <input type="hidden" name="_csrf" value="{{@root.csrf}}" />
+            {{#notEqual isCreator }}
+            {{#if @root.isCreatorCurrent }}
+            <button type="submit" class="admin-delete-btn">Kustuta</button>
+            {{/if}}
+            {{/notEqual}}
+          </form>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/if}}
+  <h1 class="admin-title small">Lisa pilt galeriisse</h1>
+  <div class="admin-block row">
+    {{#each images}}
+      <div class="admin-image-column">
+        <a href="/{{@root.lang}}/admin/image/{{_id}}"><img
+            src="/{{picUrlMin}}"
+            data-src="/{{picUrl}}"
+            class="async-image admin-image {{#notEqual isVerified}}not-verified{{/notEqual}}"
+            alt="error"
+          /></a>
+      </div>
+    {{/each}}
+  </div>
+  <h1 class="admin-title small" id="suggestions">Vastused</h1>
+  <div class="admin-block contact">
+    {{#each suggestions}}
+      <div class="contact-answer">
+        <div class="contact-answer-content">
+          <h3 class="contact-name">{{ name }}</h3>
+          <p class="small contact-suggestion">{{ suggestion }}</p>
+        </div>
+        <form action="/{{@root.lang}}/admin/contact/{{_id}}/delete" method="POST">
+          <input type="hidden" name="_csrf" value="{{@root.csrf}}" />
+          <button type="submit" class="admin-delete-btn">Kustuta</button>
+        </form>
+      </div>
+    {{/each}}
+  </div>
+</div>

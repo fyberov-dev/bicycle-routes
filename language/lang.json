@@ -1,0 +1,784 @@
+{
+  "ru": {
+    "home": {
+      "pageTitle": "Велосипедные дорожки Ласнамяэ",
+      "headerTitles": [
+        {
+          "title": "Общая длина велосипедных дорожек в Ласнамяэ примерно 48 км",
+          "picUrl": "/sliderImage1.jpeg"
+        },
+        {
+          "title": "Общая длина велосипедных дорожек в Ласнамяэ примерно 48 км",
+          "picUrl": "/sliderImage2.jpeg"
+        },
+        {
+          "title": "Общая длина велосипедных дорожек в Ласнамяэ примерно 48 км",
+          "picUrl": "/sliderImage3.jpeg"
+        }
+      ],
+      "mapTitle": "Найти велосипедную дорожку",
+      "mappingTitle": "Прими участие в картографировании Таллинна",
+      "mapButton": "Наведитесь, чтобы посмотреть карту",
+      "openMap": "Открыть маленькую карту",
+      "closeMap": "Закрыть карту",
+      "openFullMap": "Открыть полную версию карты",
+      "rulesTitle": {
+        "first": "Уважай других!",
+        "second": "Знай как себя вести на велосипедных дорожках!"
+      },
+      "galleryTitle": "Галерея",
+      "watchMore": "Смотреть больше..."
+    },
+    "mapping": {
+      "pageTitle": "Картографирование",
+      "title": "Таллинн привлечет к картографированию велосипедного движения 500 велосипедистов",
+      "content": [
+        "Таллинн приглашает велосипедистов поучаствовать в международном исследовании мобильности, при помощи которого с июня по сентябрь будет проводиться картографирование маршрутов. Собранные данные предоставят возможность городу более основательно проанализировать движение велосипедистов и в дальнейшем улучшить удобство и безопасность велодорожек.",
+        "Таллинн участвует в проекте «Bicification – увеличение использования велосипедов в городском движении», цель которого заключается в поддержке перехода европейских городов к экологичному, активному движению. Чтобы достоверно отслеживать поездки на велосипедах участников исследования и поблагодарить их за старания, велосипедисты за пройденные километры получат премии.",
+        "В ближайшем будущем в Таллинне планируется только лишь в Кесклинне построить около 40 км новых велодорожек и повысить безопасность имеющихся дорожек и выделенных полос. «Наша цель - постепенно реализовать велосипедную стратегию Таллинна и поспособствовать тому, чтобы велосипед стал средством передвижения, используемым на повседневной основе, - сказал вице-мэр Владимир Свет. - Важно при разработке проектов привлекать людей, которые действительно ежедневно передвигаются по велодорожкам Таллина. Так мы выясним, удобны ли будут для них запланированные велодорожки и насколько они безопасны, а также совпадают ли они с реальными траекториями движения велосипедистов».",
+        "«Мы приглашаем всех заинтересованных велосипедистов поучаствовать в исследовании. Каждый сможет внести свой вклад в становление города более удобным для передвижения на велосипедах. Перед нами долгий путь и мы готовы приложить усилия ради этого», - добавил Свет.",
+        "Исследование Bicification начнется 1 июня и продолжится до 30 сентября 2022 года. Город рассчитывает привлечь к участию в проекте 500 велосипедистов, которые составили бы репрезентативную выборку на основе географических и социально-экономических аспектов. В проекте могут принять участие все граждане, живущие или работающие в Таллинне, на момент регистрации им должно быть не менее 18 лет и они должны пользоваться смартфоном."
+      ],
+      "readMore": {
+        "url": "https://www.tallinn.ee/rus/Uudis-Tallinn-privlechet-k-kartografirovaniju-velosipednogo-dvizhenija-500-velosipedistov?fbclid=IwAR2cnfOjU9gHVpfstrx9OFLwCV2zRMXM3328449sM3UCsVGTkbv2wVzKcC8",
+        "text": "Читать далее"
+      }
+    },
+    "rules": {
+      "title": "Правила дорожного движения",
+      "blocks": [
+        {
+          "title": "Велосипед по правилам дорожного движения является транспортным средством, а велосипедист - водителем",
+          "content": [
+            {
+              "text": "Велосипедист не должен находиться в состоянии алкогольного опьянения, в состоянии усталости, или при болезнях, которые как-либо могут повергнуть опасности во время езды",
+              "type": "paragraph"
+            },
+            {
+              "text": "Велосипедисту запрещено заниматься посторонними делами, которые отвлекают от дороги и управления велосипедом",
+              "type": "paragraph"
+            },
+            {
+              "text": "Велосипедист может ездить по правому краю проезжей части, по велосипедной тропе, по велосипедной дорожке и по велосипедно-пешеходной дорожке. В некоторых случаях, велосипедист также может ездить по пешеходной дорожке, если езда по проезжей части опасна. По пешеходной дорожке могут ездить только дети до 13-ти лет вместе с не более чем двумя сопровождающими",
+              "type": "paragraph"
+            },
+            {
+              "text": "Если водитель слез с велосипеда и катит его рядом, то он должен держаться правого края дорожки.",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Обязанности велосипедиста:",
+          "content": [
+            {
+              "text": [
+                "Показывать рукой направления поворота хотя-бы за 3 секунды до начала совершения манёвра;",
+                "Всегда находиться у правого края проезжей части(исключение: если велосипедисту нужно повернуть налево, или развернуться);",
+                "Заблаговременно до левого поворота, или разворота приблизиться к левому краю проезжей части;",
+                "Следить за светофорами и соблюдать дорожные знаки и разметку;",
+                "Соблюдать правила правой руки на нерегулируемых перекрестках;",
+                "Не подвергать перешоход опасности;",
+                "Давать дорогу общественному транспорту, выезжающему с автобусной остановки, в населённых пунктах;",
+                "Давать дорогу оперативному транспорту с работающими проблесковыми мячками (полиция, скорая помощь, пожарный автомобиль);"
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Езда по велосипедно-пешеходной или пешеходной дорожке",
+          "content": [
+            {
+              "text": "Запрещено подвергать опасности пешеходов;",
+              "type": "paragraph"
+            },
+            {
+              "text": "При езде в непосредственной близости к пешеходам, разрешенно ехать с их средней скоростью",
+              "type": "paragraph"
+            },
+            {
+              "text": "При подъезде к перекрестку следует снизить скорость, убедиться в безопасности и пересечь проезжую часть со средней скоростью пешехода(5-7км/ч)",
+              "type": "paragraph"
+            },
+            {
+              "text": "Велосипедист должен уступить дорогу, стоящему/выезжающему на автобусной или трамвайной остановке общественному транспорту, или пешеходу, выходящего из него",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Проверка исправности велосипеда",
+          "content": [
+            {
+              "text": [
+                "У велосипедиста, как транспортного средства, должны быть тормоза и сигнальные звонки в рабочем состоянии;",
+                "Для видимости следует использовать белый отражатель спереди и красный сзади, а также на одном из колес на спицах белый, или желтый отражатель",
+                "При темном времени суток, или при ограниченной видимости(туман, проливной дождь, слякоть) должны светиться белый свет спереди и красный сзади"
+              ],
+              "type": "list"
+            },
+            {
+              "text": "Учитывая, что в Эстонии преобладает пасмурная погода, рекомендуется одеваться так, чтобы вас могли легко увидеть, то есть в яркой, или светоотражающей одежде",
+              "type": "paragraph"
+            },
+            {
+              "text": "Также, использование шлема может спасти от черепно-мозговых травм.",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Дорожные знаки",
+          "content": [
+            {
+              "images": [
+                {
+                  "title": "Движение запрещено",
+                  "text": "Запрещает движение всех транспортных средств",
+                  "imgUrl": "/311a.png"
+                },
+                {
+                  "title": "Движение на велосипедах запрещено",
+                  "text": "запрещает движение на велосипедах, мопедах и мини-мопедах.",
+                  "imgUrl": "/321.png"
+                },
+                {
+                  "title": "Велосипедная дорожка",
+                  "text": "указывает, что движение разрешено для велосипедистов, водителей электрических двухколесных самокатов, мопедов и мини-мопедов. Если позволяет интенсивность движения, то в названной зоне разрешается передвигаться также пешеходам без создания помех движению на велосипедах, электрических двухколесных самокатах, мопедах и мини-мопедах.",
+                  "imgUrl": "/431.png"
+                },
+                {
+                  "title": "Велосипедно-пешеходная дорожка",
+                  "text": "",
+                  "imgUrl": "/435.png"
+                },
+                {
+                  "title": "Конец велосипедной дорожки",
+                  "text": "",
+                  "imgUrl": "/441.png"
+                },
+                {
+                  "title": "Конец велосипедно-пешеходной дорожки",
+                  "text": "",
+                  "imgUrl": "/445.png"
+                }
+              ],
+              "type": "img"
+            }
+          ]
+        }
+      ]
+    },
+    "aid": {
+      "title": "Первая медицинская помощь",
+      "blocks": [
+        {
+          "title": "Состояние человека, получившего травму или повреждения, становится опасным для жизни, если он:",
+          "content": [
+            {
+              "text": [
+                "без сознания и не реагирует на голос или прикосновения;",
+                "дышит ненормально, т. е. реже чем 10 раз в минуту или чаще чем 30 раз в минуту;",
+                "испытывает боль в груди или сердцебиение и сильную слабость, которые в спокойном состоянии не проходят в течение нескольких минут;",
+                "имеет видимую травму, опасную для жизни, например: кровотечение, ожог, открытый перелом;",
+                "пережил тяжелый несчастный случай, например: взрыв, дорожно-транспортное происшествие, падение с высоты и т. д., но внешние признаки травмы еще не проявились;",
+                {
+                  "listInList": true,
+                  "title": "имеет другие признаки, указывающие на опасное состояние здоровья, например:",
+                  "listContent": [
+                    "паралич,",
+                    "усугубляющееся состояние спутанного сознания,",
+                    "эпилептический припадок, длящийся более пяти минут,",
+                    "переохлаждение,",
+                    "очень острая и внезапная боль."
+                  ]
+                }
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Как обеспечить собственную безопасность",
+          "content": [
+            {
+              "text": [
+                "Увидев пострадавшего и приступив к оказанию помощи, убедитесь, что вы не подвергаете себя той же опасности, из-за которой пострадавший нуждается в помощи, например: токсичная окружающая среда, электричество, окружающее дорожное движение, нападение и т. п.",
+                "Позвоните или поручите находящемуся рядом человеку сразу же позвонить на номер экстренной помощи 112.",
+                "Будьте заметны.",
+                "Избегайте соприкосновения с кровью."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Как проверить состояние пострадавшего",
+          "content": [
+            {
+              "text": [
+                {
+                  "listInList": true,
+                  "title": "Находится ли пострадавший в сознании:",
+                  "listContent": [
+                    "Разговаривайте с пострадавшим громким голосом.",
+                    "Если он не отвечает, встряхните его за плечи с умеренной силой.",
+                    "Если он не реагирует на встряхивание, ущипните его.",
+                    "Если пострадавший вообще не реагирует, значит, он без сознания."
+                  ]
+                },
+                {
+                  "listInList": true,
+                  "title": "Нормально ли дышит пострадавший?",
+                  "listContent": [
+                    "Освободите дыхательные пути пострадавшего, осторожно нагибая его голову, взявшись за затылок.",
+                    "Послушайте 10 секунд, нормально ли дышит пострадавший, и проследите, есть ли движения грудной клетки.",
+                    "Если пострадавший дышит нормально, поместите его в устойчивую позу лежа на боку.",
+                    "Если дыхание остановилось или ненормально (задыхающееся, хрипящее, поверхностное или реже чем десять раз в минуту), немедленно начните реанимацию."
+                  ]
+                }
+              ],
+              "type": "list"
+            },
+            {
+              "text": "Если вы видите обильное кровотечение, кровь выбрасывается пульсирующей струей, то быстро остановите его.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Немедленно позвоните на номер экстренной помощи 112 или поручите кому-либо это сделать. При необходимости Центр тревоги дает указания и инструкции по оказанию первой помощи пострадавшему.",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Как остановить сильное кровотечение",
+          "content": [
+            {
+              "text": [
+                "Позвоните или поручите находящемуся рядом человеку незамедлительно позвонить на номер экстренной помощи 112.",
+                "При оказании помощи незнакомому человеку используйте в качестве защитного средства резиновые перчатки или пластиковый пакет, обернутый вокруг руки.",
+                "Положите пострадавшего.",
+                "Зажмите рану пальцем или ладонью.",
+                "Наложите на рану давящую повязку или поместите на нее свернутый в рулон предмет одежды. Плотно привяжите его или прижмите к ране.",
+                "Если обильное кровотечение из конечности не остановить, зажмите пальцами артерию, снабжающую кровью конечность, или установите жгут.",
+                "По возможности поднимите травмированную конечность выше уровня сердца.",
+                "Держите кровоток перекрытым до прибытия бригады скорой помощи."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Как повернуть пострадавшего, потерявшего сознание, в устойчивое боковое положение",
+          "content": [
+            {
+              "text": [
+                "Пострадавшего в бессознательном состоянии, который дышит, следует поворачивать в устойчивое боковое положение лицом вперед и наклонно. Таким образом дыхательные пути остаются открытыми, и мокрота, рвота и кровь могут при необходимости вытекать.",
+                "Пострадавшего, находящегося в положении лежа на боку, вы можете на некоторое время оставить без присмотра, чтобы сходить позвать на помощь.",
+                "Если вам не удастся поместить пострадавшего в устойчивое боковое положение, держите его на боку сами.",
+                "Постоянно следите за состоянием пострадавшего. Если жарко, положите его в тени и охладите, если холодно – накройте предметом одежды или термоодеялом."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Как выполнять сердечно-легочную реанимацию",
+          "content": [
+            {
+              "text": [
+                {
+                  "listInList": true,
+                  "title": "Непрямой массаж сердца",
+                  "listContent": [
+                    "Убедитесь, что пострадавший лежит на твердой поверхности. Встаньте на колени рядом с ним.",
+                    "Освободите дыхательные пути пострадавшего, запрокиньте голову пострадавшего назад и приподнимите его подбородок.",
+                    "Расположите свои руки на грудине в центре грудной клетки пострадавшего.",
+                    "Выполняйте сильные и быстрые нажатия на грудную клетку (с частотой не менее 100 раз в минуту на глубину не менее 5-6 см).",
+                    "Непрерывно выполняйте нажатия на грудную клетку до прибытия бригады скорой помощи или до тех пор, пока пострадавший не начнет нормально дышать или не придет в сознание.",
+                    "Eсли поблизости от пострадавшего имеется автоматический наружный дефибриллятор, используйте его. Включите его и следуйте инструкциям."
+                  ]
+                },
+                "Если у вас недостаточно сил, чтобы продолжать косвенный массаж сердца, позовите других людей на помощь."
+              ],
+              "type": "list"
+            }
+          ]
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Галерея",
+      "buttonText": "Добавить фотографию",
+      "addPhoto": {
+        "title": "Добавить фотографию",
+        "author": {
+          "title": "Автор*",
+          "placeholder": "Имя автора"
+        },
+        "file": {
+          "title": "Загрузить файл*"
+        },
+        "source": {
+          "title": "Источник",
+          "placeholder": "Источник"
+        },
+        "buttonText": "Отправить"
+      }
+    },
+    "partials": {
+      "navbar": {
+        "routes": [
+          { "title": "Правила дорожного движения", "route": "rules" },
+          { "title": "Карта", "route": "#map" },
+          { "title": "Галерея", "route": "gallery" },
+          { "title": "ПМП", "route": "aid" }
+        ],
+        "contactButton": "Написать нам"
+      },
+      "footer": {
+        "title": "Дополнительные ссылки",
+        "links": [
+          {
+            "title": "Карта велосипедных дорожек",
+            "link": "https://gis.tallinn.ee/portal/apps/webappviewer/index.html?id=7ec89eb3320246b4891f72106e871e40",
+            "isTitle": false
+          },
+          {
+            "title": "Приложение bikeep",
+            "link": "https://bikeep.com/",
+            "isTitle": false
+          },
+          {
+            "title": "Правила дорожного движения",
+            "link": "https://www.liikluskasvatus.ee/et/taiskasvanule/1/jalgrattur",
+            "isTitle": false
+          },
+          {
+            "title": "Первая медицинская помощь",
+            "link": "https://www.olevalmis.ee/et/juhis/esmaabi",
+            "isTitle": false
+          },
+          { "title": "Галерея", "link": "/ru/gallery", "isTitle": false },
+          {
+            "title": "Приложение Ole Valmis",
+            "link": "https://www.olevalmis.ee/ru",
+            "isTitle": false
+          },
+          { "title": "Язык:", "link": "", "isTitle": true },
+          { "title": "Русский", "link": "/ru", "isTitle": false },
+          { "title": "Эстонский", "link": "/et", "isTitle": false }
+        ]
+      },
+      "contact": {
+        "title": "Предложить изменения",
+        "name": {
+          "title": "Имя",
+          "placeholder": "Введите ваше имя"
+        },
+        "suggest": {
+          "title": "Предложения",
+          "placeholder": "Ваши предложения"
+        },
+        "buttonText": "Отправить"
+      }
+    }
+  },
+  "et": {
+    "home": {
+      "pageTitle": "Lasnamäe jalgrattateed",
+      "headerTitles": [
+        {
+          "title": "Kogu Lasnamäe jalgrattateede pikkus on umbes 48 km",
+          "picUrl": "/sliderImage1.jpeg"
+        },
+        {
+          "title": "Kogu Lasnamäe jalgrattateede pikkus on umbes 48 km",
+          "picUrl": "/sliderImage2.jpeg"
+        },
+        {
+          "title": "Kogu Lasnamäe jalgrattateede pikkus on umbes 48 km",
+          "picUrl": "/sliderImage3.jpeg"
+        }
+      ],
+      "mapTitle": "Leia jalgrattatee",
+      "mappingTitle": "Osale rattaliikluse kaardistamisel Tallinnas",
+      "mapButton": "sihi kursoriga, et näidata kaardi",
+      "openMap": "Avada väikese kaardi",
+      "closeMap": "Sulgeda kaardi",
+      "openFullMap": "Ava kaardi täis versiooni",
+      "rulesTitle": {
+        "first": "Austa teisi!",
+        "second": "Tea kuidas käituda jalgrattateedel!"
+      },
+      "galleryTitle": "Galerii",
+      "watchMore": "Vaadata veel..."
+    },
+    "mapping": {
+      "pageTitle": "Kaardistamine",
+      "title": "Rattaliikluse kaardistamiseks kaasatakse 500 ratturit",
+      "content": [
+        "Tallinna linn kutsub alatest tänasest rattureid osalema rahvusvahelises mobiilsusuuringus, millega kaardistatakse juunist septembrini nende liikumisteekondi. Kogutud andmed annavad võimaluse linnal rattaliiklust põhjalikumalt analüüsida ning edaspidi rattateede mugavust ja ohutust parandada.",
+        "Tallinn osaleb välisprojektis „Bicification – jalgrattakasutuse suurendamine linnaliikluses“, mille eesmärk on toetada Euroopa linnade üleminekut rohelisele, aktiivsele liikumisele. Et uuringus osalejate jalgrattasõite usaldusväärselt jälgida ja neid nähtud vaeva eest ka tänada, saavad ratturid läbitud kilomeetrite eest koguda preemiaid.",
+        "Lähitulevikus on plaanis Tallinnas ainuüksi Kesklinna rajada ligikaudu 40 kilomeetrit uusi rattateid ning tõsta olemasolevate rattaradade ja -teede ohutust. „Meie eesmärgiks on järk-järgult viia ellu Tallinna rattastrateegia ning soodustada jalgratta muutumist igapäevaseks sõiduvahendiks,“ ütles abilinnapea Vladimir Svet. „Oluline on projektide väljatöötamisse kaasata inimesi, kes reaalselt Tallinna rattateedel igapäevaselt liiklevad. Nii saame teada, kas planeeritavad teed on nende jaoks mugavad ja ohutud ning asuvad ka reaalselt trajektooril, mida ratturid kasutavad.”",
+        "„Ootame kõiki huvilisi rattureid uuringust osa võtma! Kõik saavad panustada linna rattasõbralikumaks muutmisega. Meil on sellega pikk tee minna ja me oleme valmis selle nimel pingutama,“ lisas Svet.",
+        "Bicificationi uuring algab 1. juunil ja lõppeb 30. septembril 2022. Linn loodab kaasata projekti 500 ratturit, kes moodustaksid geograafilistest ja sotsiaalmajanduslikest aspektidest lähtuvalt Tallinna representatiivse valimi. Projektis saavad osaleda kõik kodanikud, kes elavad või töötavad Tallinnas, on registreerumise hetkel vähemalt 18-aastased ja kasutavad nutitelefoni. Osalejad kinnitavad oma jalgrattale Pin Bike’i komplekti, millega ratturi liikumist kaardistatakse. Projektis saab osaleda vaid tavalise jalgrattaga, elektrilise jalgrattaga osalemine ei ole kahjuks võimalik."
+      ],
+      "readMore": {
+        "url": "https://www.tallinn.ee/est/Uudis-Tallinn-kaasab-rattaliikluse-kaardistamiseks-pool-tuhat-ratturit",
+        "text": "Edasi lugeda"
+      }
+    },
+    "rules": {
+      "title": "Liiklusreeglid",
+      "blocks": [
+        {
+          "title": "Jalgratas on liiklusseaduses mõistes sõiduk, seega on jalgrattur liikluses juht ning talle kehtivad juhi liiklusreeglid.",
+          "content": [
+            {
+              "text": "Juht ei tohi olla liikluses joobes, sellises haigus- või väsimusseisundis, mis takistab liiklusolude täpset tajumist.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Juhil on keelatud juhtimise ajal tegeleda kõrvaliste tegevustega, mis võivad segada juhtimist või liiklusolude tajumist.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Jalgrattur võib sõita sõiduteel paremas ääres, jalgrattarajal, jalgrattateel,  jalgratta-ja jalgteel. Erandjuhul on jalgrattur lubatud sõitma kõnniteele, kui sõiduteel sõitmine on tee seisukorra tõttu oluliselt raskendatud. Kõnniteel võib sõita kuni 13-aastane jalgrattur ja tema kuni kaks saatjat ning väikelast rattatoolis sõidutav jalgrattur.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Jalgratast käe kõrval lükkav jalakäija peab liikuma pärissuunavööndi (parema) ääre lähedal.",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Ratturi kohustused:",
+          "content": [
+            {
+              "text": [
+                "näidata suunamärguandeid vähemalt 3 sekundit enne manöövri sooritamist;",
+                "paikneda sõidutee paremas servas, välja arvatud enne vasak- ja tagasipööret;",
+                "suunduda enne vasak- või tagasipööret aegsasti sõidutee pärisuunavööndi vasaku ääre lähedale;",
+                "järgida foore, liiklusmärke ja teekattemärgiseid;",
+                "järgida samaliigiliste teede ristmikel parema käe reeglit;",
+                "tagada jalakäijate ohutus",
+                "anda teed asulas bussipeatusest väljuvale ühistranspordi sõidukile;",
+                "anda teed operatiivsõidukitele(politsei, kiirabi, päästeteenistus)"
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Jalgratta– ja jalgteel ja erandjuhul kõnniteel sõites",
+          "content": [
+            {
+              "text": [
+                "ei tohi ohustada ega takistada jalakäijat;",
+                "jalakäija vahetus läheduses tohib jalgrattaga sõita jalakäija tavakiirusega;",
+                "sõiduteega lõikumise kohale jõudes tuleb vähendada kiirust, veenduda teeületuse ohutuses ja ületada sõidutee jalakäija tavakiirusel (5–7 km/h);",
+                "peab jalgrattur andma teed trammi- või bussipeatuses seisvale ühissõidukile minevale või sellelt tulevale jalakäijale."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Sõidutee ületamine",
+          "content": [
+            {
+              "text": "Ülekäigurajal võib sõidutee ületada jalgrattaga sõites, kuid sel juhul ei ole reguleerimata ülekäigurajal (foorita) jalgratturil sõidukijuhi suhtes eesõigust, teised juhid ei pea teed andma v.a juhul kui jalgrattur ületab ülekäigurajal teed, millele sõidukijuht pöörab.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Ületades sõiduteed sõites, ei tohi jalgrattur ohustada jalakäijat ja peab ületama sõidutee jalakäija tavakiirusel (5–7 km/h).",
+              "type": "paragraph"
+            },
+            {
+              "text": "Ohutum on sõiduteed ületada jalakäijana, jalgratast käekõrval lükates.",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Jalgratta tehniline korrasolek",
+          "content": [
+            {
+              "text": [
+                "Jalgrattal kui sõidukil peavad olema korras pidurid ja signaalkell;",
+                "nähtavuse tagamiseks ees valge ja taga punane helkur ning kodaratel vähemalt ühe ratta mõlemal pool valge või kollane helkur;",
+                "pimeda ajal või halva nähtavuse(udu, tugev vihm, lörts) korral peavad põlema ees valge tuli ja taga punane tuli."
+              ],
+              "type": "list"
+            },
+            {
+              "text": "Eesti sombuseid ilmasid arvestades, soovitame jalgratturil ka ennast nähtavaks teha, kandes erksaid või reflekteeruvast materjalist riideid.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Lisaks tuletame meelde, et kiivri kandmine võib hoida ära rasked peatraumad!",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Liiklusmärgid",
+          "content": [
+            {
+              "images": [
+                {
+                  "title": "Sõidukeeld",
+                  "text": "keelab kõigi sõidukite liikluse.",
+                  "imgUrl": "/311a.png"
+                },
+                {
+                  "title": "Jalgratta sõidu keeld",
+                  "text": "keelab jalgratta, mopeedi ja pisimopeedi liikluse.",
+                  "imgUrl": "/321.png"
+                },
+                {
+                  "title": "Jalgrattatee",
+                  "text": "näitab, et tohivad liikuda jalgrattur, tasakaaluliikuri juht, mopeedi- ja pisimopeedijuht. Kui liiklussagedus võimaldab, tohib liikuda ka jalakäija, takistamata jalgratta-, tasakaaluliikuri-, mopeedi- ja pisimopeediliiklust.",
+                  "imgUrl": "/431.png"
+                },
+                {
+                  "title": "Jalgratta- ja jalgtee",
+                  "text": "",
+                  "imgUrl": "/435.png"
+                },
+                {
+                  "title": "Jalgrattatee lõpp",
+                  "text": "",
+                  "imgUrl": "/441.png"
+                },
+                {
+                  "title": "Jalgratta- ja jalgtee lõpp",
+                  "text": "",
+                  "imgUrl": "/445.png"
+                }
+              ],
+              "type": "img"
+            }
+          ]
+        }
+      ]
+    },
+    "aid": {
+      "title": "Esmaabi",
+      "blocks": [
+        {
+          "title": "Trauma või terviserikke korral on abivajaja seisund eluohtlik, kui:",
+          "content": [
+            {
+              "text": [
+                "ta on teadvusetu ega reageeri häälele ega puudutustele;",
+                "ta hingab ebanormaalselt ehk harvemini kui 10 korda minutis või tihedamini kui 30 korda minutis;",
+                "tal on valu rinnus või südamepekslemine ja suur nõrkus, mis rahulikus olekus mõne minutiga ei kao;",
+                "tal on nähtav eluohtlik vigastus, näiteks verejooks, põletus, lahtine luumurd;",
+                "ta on üle elanud raske õnnetuse, näiteks plahvatus, liiklusõnnetus, kõrgelt kukkumine jne, kuid väliseid vigastuste tunnuseid ei ole veel avaldunud;",
+                {
+                  "listInList": true,
+                  "title": "tal esineb muid tunnuseid, mis viitavad ohtlikule terviseseisundile, näiteks:",
+                  "listContent": [
+                    "halvatus,",
+                    "süvenev segadusseisund,",
+                    "üle viie minuti kestev krambihoog,",
+                    "alajahtumine,",
+                    "väga terav ja järsk valu."
+                  ]
+                }
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Kuidas tagada enda ohutus?",
+          "content": [
+            {
+              "text": [
+                "Kannatanut nähes ja abi andma asudes veendu, et sa ei sea ennast samasse ohtu, mille tõttu kannatanu abi vajab, näiteks mürgine keskkond, elekter, ümbritsev liiklus, rünnak vmt.",
+                "Helista või palu mõnel kõrvalseisjal helistada hädaabinumbrile 112.",
+                "Ole nähtav.",
+                "Väldi kokkupuudet verega."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Kuidas kontrollida kannatanu seisundit?",
+          "content": [
+            {
+              "text": [
+                {
+                  "listInList": true,
+                  "title": "Kas kannatanu on teadvusel?",
+                  "listContent": [
+                    "Kõneta kannatanut valju häälega.",
+                    "Kui ta ei vasta, raputa teda õlgadest mõõduka tugevusega.",
+                    "Kui ta raputusele ei reageeri, näpista teda.",
+                    "Kui kannatanu üldse ei reageeri, on ta teadvusetu."
+                  ]
+                },
+                {
+                  "listInList": true,
+                  "title": "Kas kannatanu hingab normaalselt?",
+                  "listContent": [
+                    "Vabasta kannatanu hingamisteed, painutades tema pea ettevaatlikult kuklasse.",
+                    "Kuula 10 sekundit, kas kannatanu hingab normaalselt, ja vaata, kas tema rindkere liigub.",
+                    "Kui kannatanu hingab normaalselt, siis pane ta püsivasse küliliasendisse.",
+                    "Kui hingamine on seiskunud või on ebanormaalne (ahmiv, korisev, pindmine või alla 10 korra minutis), alusta kohe elustamisega."
+                  ]
+                }
+              ],
+              "type": "list"
+            },
+            {
+              "text": "Kui näed purskavat või suurt verejooksu, peata see kiirelt.",
+              "type": "paragraph"
+            },
+            {
+              "text": "Helista viivitamata hädaabinumbrile 112 või lase seda kellelgi teha. Häirekeskus annab vajadusel juhiseid ja suuniseid kannatanule esmaabi andmiseks.",
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "title": "Kuidas peatada tugevat verejooksu?",
+          "content": [
+            {
+              "text": [
+                "Helista või käsi mõnel kõrvalseisjal viivitamata helistada hädaabinumbrile 112.",
+                "Võõrale inimesele abi osutamisel kasuta kaitsevahendina kummikindaid või käe ümber mässitud kilekotti.",
+                "Aseta kannatanu lamama.",
+                "Suru haavale sõrmede või peopesaga.",
+                "Tee haavale rõhkside või aseta sinna kokku rullitud riidetükk. Seo see tugevasti kinni või suru sellele peale.",
+                "Kui suur verejooks jäsemel ei peatu, suru sõrmedega kinni jäset verega varustav arter või paigalda žgutt.",
+                "Tõsta võimalusel vigastatud jäse südamest kõrgemale.",
+                "Hoia verejooks suletuna kuni kiirabi saabumiseni."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Kuidas keerata teadvuseta kannatanu püsivasse küliliasendisse?",
+          "content": [
+            {
+              "text": [
+                "Teadvusetu kannatanu, kes hingab, tuleb keerata püsivasse küliliasendisse, näoga ettepoole kaldu. Selliselt püsivad hingamisteed lahti ning röga, okse ja veri saavad vajadusel välja voolata.",
+                "Võid püsivas küliliasendis oleva kannatanu mõneks ajaks järelevalveta jätta, et minna abi kutsuma.",
+                "Kui sul ei õnnestu asetada kannatanut püsivasse küliliasendisse, hoia teda ise külili.",
+                "Jälgi pidevalt kannatanu seisundit. Kuuma korral paku talle varju ja jahutust ning külma korral kata riideeseme või termokilega."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Kuidas teha elustamisvõtteid?",
+          "content": [
+            {
+              "text": [
+                {
+                  "listInList": true,
+                  "title": "Kaudne südamemassaaž",
+                  "listContent": [
+                    "Veendu, et kannatanu on kõval alusel. Põlvita tema kõrvale.",
+                    "Ava kannatanu hingamisteed, kallutades tema pea taha ja tõstes lõua üles.",
+                    "Aseta oma käed kannatanu rindkere keskele.",
+                    "Vajuta rindkerele tugevasti (5–6 cm sügavusele) ja kiiresti (100 korda minutis).",
+                    "Tee ilma pausideta vajutusi rindkerele, kuni kiirabi saabumiseni või kuni kannatanu hakkab normaalselt hingama või tuleb teadvusele.",
+                    "Kui kannatanu läheduses on avalikult kasutatav AED elustamisaparaat, kasuta seda! Lülita see sisse ja järgi juhiseid."
+                  ]
+                },
+                "Kui sul ei ole piisavalt jõudu, et kaudse südamemassaažiga jätkata, kutsu teised inimesed appi."
+              ],
+              "type": "list"
+            }
+          ]
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Galerii",
+      "buttonText": "Lisada oma foto",
+      "addPhoto": {
+        "title": "Lisa foto",
+        "author": {
+          "title": "Autor*",
+          "placeholder": "Autori nimi"
+        },
+        "file": {
+          "title": "laadi faili*"
+        },
+        "source": {
+          "title": "Allikas",
+          "placeholder": "Allikas"
+        },
+        "buttonText": "Saata"
+      }
+    },
+    "partials": {
+      "navbar": {
+        "routes": [
+          { "title": "Liiklusreeglid", "route": "rules" },
+          { "title": "Kaart", "route": "#map" },
+          { "title": "Galerii", "route": "gallery" },
+          { "title": "Esmaabi", "route": "aid" }
+        ],
+        "contactButton": "Kirjutada meile"
+      },
+      "footer": {
+        "title": "Lisa lingid",
+        "links": [
+          {
+            "title": "Jalgrattateede kaart",
+            "link": "https://gis.tallinn.ee/portal/apps/webappviewer/index.html?id=7ec89eb3320246b4891f72106e871e40",
+            "isTitle": false
+          },
+          {
+            "title": "Bikeep-äpp",
+            "link": "https://bikeep.com/",
+            "isTitle": false
+          },
+          {
+            "title": "Liiklusreeglid",
+            "link": "https://www.liikluskasvatus.ee/et/taiskasvanule/1/jalgrattur",
+            "isTitle": false
+          },
+          {
+            "title": "Esmaabi",
+            "link": "https://www.olevalmis.ee/et/juhis/esmaabi",
+            "isTitle": false
+          },
+          { "title": "Galerii", "link": "/et/gallery", "isTitle": false },
+          {
+            "title": "Ole Valmis-äpp",
+            "link": "https://www.olevalmis.ee/et",
+            "isTitle": false
+          },
+          { "title": "Keel:", "link": "", "isTitle": true },
+          { "title": "Vene", "link": "/ru", "isTitle": false },
+          { "title": "Eesti", "link": "/et", "isTitle": false }
+        ]
+      },
+      "contact": {
+        "title": "Pakkuda muudatusi",
+        "name": {
+          "title": "Nimi",
+          "placeholder": "Kirjutage oma nime"
+        },
+        "suggest": {
+          "title": "Pakkumised",
+          "placeholder": "Teie pakkumised"
+        },
+        "buttonText": "Saata"
+      }
+    }
+  }
+}
